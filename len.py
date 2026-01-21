@@ -1,5 +1,7 @@
 text = input("Enter a string: ")
 
-length = len(text)
+count = 0
+for ch in text:
+    count += 1
 
-print("Length of the string is:", length)
+print("Length of the string is:", count)
