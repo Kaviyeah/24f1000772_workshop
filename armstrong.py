@@ -7,6 +7,6 @@ for d in str(num):
     total += int(d) ** digits
 
 if total == num:
-    print(num, "is an Armstrong number")
+    print(num, "is an Armstrong number.")
 else:
-    print(num, "is not an Armstrong number")
+    print(num, "is not an Armstrong number.")
